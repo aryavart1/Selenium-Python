@@ -5,7 +5,7 @@ from selenium import webdriver
 driver = webdriver.Firefox()
 
 # get geeksforgeeks.org
-driver.get("https://www.geeksforgeeks.org/")
+driver.get("https://www.chess.com/home")
 
 # write script
 script = "alert('Alert via selenium')"
